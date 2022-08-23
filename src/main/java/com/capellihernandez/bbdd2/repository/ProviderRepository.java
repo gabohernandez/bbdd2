@@ -3,9 +3,9 @@ package com.capellihernandez.bbdd2.repository;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.capellihernandez.bbdd2.model.Customer;
+import com.capellihernandez.bbdd2.model.Provider;
 
 @Repository
-public interface CustomerRepository extends CrudRepository<Customer, Integer> {
+public interface ProviderRepository extends CrudRepository<Provider, Long> {
 
 }
